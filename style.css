@@ -1,0 +1,301 @@
+/* css reset  */
+*{
+ margin: 0px;
+ padding: 0px;   
+}
+/* Css varibale */
+:root{
+    --navbar-height:59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+/* Logo and image */
+#logo{
+margin: 0px 5px;
+
+}
+#logo img{
+margin: 10px 8px;
+height: 75px;
+border-radius: 50%;
+
+}
+#navbar ul{
+    font-family: 'Baloo Thambi 2', cursive;
+
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+  display: block;
+  padding: 5px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#navbar h3{
+    display: flex;
+    color: wheat;
+    text-align-last: end;
+    justify-items: end;
+    width: 100px;
+    margin: 25px 643px;
+    font-size: 23px;
+}
+/* section styling */
+#home{
+    justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding: 3px 200px;
+height: 200px;
+}
+
+
+.home::before{
+    content: "";
+    background:url(font.jpeg) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+.hk{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Baloo Thambi 2', cursive;
+
+  
+}
+.p-heading{
+    font-size: 1.3rem;
+    padding: 12px;
+
+}
+H1{
+    text-align: center;
+    color: white;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Libre Franklin', sans-serif;
+}
+.btn{
+    padding: 5px 12px;
+    border: 3px solid white;
+    background-color: darkcyan;
+    color: floralwhite;
+    font-size: 20px;
+    margin: 12px;
+    font-family: 'Baloo Thambi 2', cursive;
+cursor: pointer;;
+}
+/* movies section */
+
+#movie .box1{
+    border: 2px solid tomato;
+    height: 420px;
+    margin: 42px;
+    background-image: url(joker-poster-main2.jpg) ;
+    background-size: cover;
+    padding: 20px;
+    width: 390px;
+    box-sizing: border-box;
+    
+    
+}
+
+
+#movie .box2{
+    border: 2px solid tomato;
+    height: 421px;
+    margin: 44px;
+    background-image: url(MV5BZGExYjQzNTQtNGNhMi00YmY1LTlhY2MtMTRjODg3MjU4YTAyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY1200_CR90\,0\,630\,1200_AL_.jpg) ;
+    background-size: cover;
+    padding: 30px;
+    width: 400;
+    box-sizing: border-box;
+
+}
+#movie .box3{
+    border: 2px solid tomato;
+    height: 423px;
+    margin: 43px;
+    background-image: url(EM6drDxVUAAOvl0-696x857.jpg) ;
+    background-size: cover;
+    padding: 20px;
+    width: 391;
+    box-sizing: border-box;
+
+
+    
+}
+
+#movie .primary-heading{
+ font-size: 2.0rem;
+ padding: 12px;
+ text-align: center;
+ 
+}
+#movie .box1 img{
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+#movie .box2 img{
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+#movie .box3 img{
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+#movie .movieslist{
+    display: flex;
+    border: 4px solid black;
+    background-image: url(unnamed.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+#movie .h-secondary{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    
+}
+/* Sponser section */
+#Sponser{
+    
+    position:relative;
+ 
+  
+}
+#Sponser .heading h2{
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#Sponser .image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 10px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.spnser-list{
+    justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding: 3px 200px;
+height: 200px;
+
+
+
+}
+#Sponser ::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.8;
+    background-image: url(pexels-photo-255379.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    color:slategray;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+
+}
+/* Contact section */
+.contact-heading{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    font-family: 'Baloo Thambi 2', cursive;
+    color:black;
+}
+.contact-heading::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.7;
+    background-image: url(joker-poster-main2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* footer */
+.central{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 2px 20px;
+}
+#contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contactbox input ,
+#contactbox textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: black 2px solid;
+}
+#contactbox form{
+    width: 40%;
+}
+#contactbox label{
+    font-size: 1.3rem;
+}
